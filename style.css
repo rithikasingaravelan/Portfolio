@@ -1,0 +1,124 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Kavoon&family=Roboto+Mono:wght@500&family=Secular+One&family=Ubuntu:wght@300;500&display=swap');
+
+.section{
+    background-color: #333333;
+    height:100vh;
+}
+
+.navbar-brand{
+    font-family: 'Secular One', sans-serif;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color:#fff;
+}
+.navbar-brand:hover, .navbar-brand:focus{
+    color:#f2f2f2;
+}
+.btn{
+    color:#ff0066 !important;
+}
+.nav-link{
+    font-family: 'Ubuntu', sans-serif;
+    color:#fff;
+    font-size: 20px;
+}
+.nav-item a:focus{
+    color:#f2f2f2;
+}
+.nav-item a.active, .nav-item a:hover{
+    color: #f2f2f2;
+    background-color: #ff0066;
+    border-radius: 5%;
+}
+.grid h1{
+    color:#fff;
+    font-size:60px;
+    margin: 200px 0px 0px 200px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.grid h3{
+    color:#fff;
+    margin-left: 200px;
+    font-size:40px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.grid h4{
+    color:#fff;
+    margin-left: 200px;
+    max-width: 600px;
+    font-size:20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.grid img{
+    margin: -330px 0px 0px 1000px;
+}
+@media only screen and (max-width: 600px) {
+    .section{
+        background-color: #333333;
+        height:100vh;
+    }
+    .grid h1{
+        color:#fff;
+        font-size:50px;
+        margin: 100px 10px 0px 30px;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    .grid h3{
+        margin: 30px 30px 0px 30px;
+        color:#fff;
+        font-size:30px;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    .grid h4{
+        margin: 30px 30px 0px 30px;
+        color:#fff;
+        max-width: 600px;
+        font-size:20px;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    .grid img{
+        margin: 60px 0px 0px 67px;
+        width: 75%;
+    }
+  }
+  .d-flex .nav-link{
+     margin-left: 100px;
+     color: #333333;
+     border-radius: 1%;
+  }
+  .d-flex button:hover, button.active{
+    color: #fff !important;
+    background-color: #ff0066 !important; 
+    border-radius: 1%;
+  }
+  .d-flex .nav-item button:focus{
+    color:#333333;
+  }
+  .d-flex p{
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 100;
+  }
+  
+::-webkit-scrollbar {
+    width: 10px;
+   } 
+   ::-webkit-scrollbar-track {
+     background: white; 
+   } 
+   ::-webkit-scrollbar-thumb {
+     background:#ff0066; 
+   } 
+   .tab-pane{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+   }
+   .tab-pane img{
+     width: 50px;
+   }
+   .card{
+    margin-left: 50px;
+   }
